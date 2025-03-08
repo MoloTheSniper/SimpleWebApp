@@ -1,0 +1,13 @@
+package com.Moloko.simpleWebAppp;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class SimpleWebApppApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}
