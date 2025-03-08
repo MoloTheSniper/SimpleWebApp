@@ -2,13 +2,16 @@ package com.Moloko.simpleWebAppp.model;
 
 import org.springframework.stereotype.Component;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+
 @Component
+@Entity //Allows us to use tables
+
 public class Product 
 {
-	@Override
-	public String toString() {
-		return "Product [prodId=" + prodId + ", prodName=" + prodName + ", price=" + price + "]";
-	}
+	@Id //Specifying PrimaryKey for table
 	private int prodId;
 	private String prodName;
 	private int price;
